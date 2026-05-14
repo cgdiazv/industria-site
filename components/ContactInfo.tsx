@@ -4,18 +4,18 @@ const ContactInfo = () => {
   return (
     <section className="relative w-full">
       {/* Red Background Banner (Top Half) */}
-      <div className="bg-[#ed3237] h-[250px] w-full flex items-start pt-16 px-10 md:px-20">
-  <h2 className="text-white text-4xl font-bold">
+      <div className="bg-[#ed3237] h-[250px] w-full flex items-start pt-16 px-5 md:px-20">
+  <h2 className="text-white text-3xl md:text-4xl font-bold">
     Comunícate con Nosotros
   </h2>
 </div>
 
       {/* Content Card Area */}
-      <div className="max-w-7xl mx-auto px-10 md:px-20 -mt-20 pb-20">
+      <div className="max-w-7xl mx-auto px-5 md:px-20 -mt-20 pb-20">
         <div className="bg-white shadow-2xl rounded-lg overflow-hidden flex flex-col md:flex-row items-stretch">
           
           {/* Left Column: Contact Details */}
-          <div className="flex-1 p-12 space-y-8">
+          <div className="flex-1 p-6 md:p-12 space-y-8">
             <div className="flex items-center gap-6 group">
               <Phone className="text-black w-8 h-8" />
               <span className="text-gray-800 text-xl font-medium">
