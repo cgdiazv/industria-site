@@ -14,7 +14,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-between px-5 md:px-10 py-4 md:py-5 bg-white border-b border-gray-100 sticky top-0 z-50 max-w-7xl mx-auto w-full md:mt-4 md:rounded-2xl">
+      <nav className="bg-white border-b border-gray-100 sticky top-0 z-50 w-full">
+        <div className="flex items-center justify-between px-5 md:px-10 py-4 md:py-5 max-w-7xl mx-auto w-full">
         {/* Logo Area */}
         <div className="flex-shrink-0 flex items-center">
           <Link href="/">
@@ -65,6 +66,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+        </div>
         </div>
       </nav>
 
