@@ -11,7 +11,7 @@ export default function HistoriaPage() {
           <div className="absolute inset-0 bg-black/40" />
         </div>
 
-        <div className="relative z-10 px-10 md:px-20 text-white">
+        <div className="relative z-10 max-w-7xl mx-auto w-full px-10 md:px-20 !text-white">
           <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none">
             Nuestra Historia
           </h1>
